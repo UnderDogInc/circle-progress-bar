@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <circle-counter :value="value" text="label"/>
+    <CircleProgress :value="value" text="label"/>
     <input type="range" v-model.number="value"  min="0" max="108">
   </div>
 </template>
 
 <script>
-import CircleCounter from '../src/components/ColorPalette.vue'
+import CircleProgress from './components/CircleProgress.vue'
 
 export default {
   name: 'app',
   components: {
-    CircleCounter
+    CircleProgress
   },
   data () {
     return {
