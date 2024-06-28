@@ -1,4 +1,4 @@
-# color-palitte
+# circle progress bar
 
 ## Project setup
 ```
